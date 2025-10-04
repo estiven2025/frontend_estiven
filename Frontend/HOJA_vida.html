@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Portafolio  Duván Sánchez — Desarrollador de Software." />
+  <title>Portafolio Duván Sánchez</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <header id="header">
+    <h1 class="nombre" id = "nombre">Duván Sánchez</h1>
+    <p class="cargo"><strong>Desarrollador de Software</strong></p>
+
+    <nav class="navegacion-principal">
+      <ul class="menu">
+        <li><a href="#sobre-mi">Sobre mí</a></li>
+        <li><a href="#proyectos">Proyectos</a></li>
+        <li><a href="#estudios">Estudios</a></li>
+        <li><a href="#hobbies">Hobbies</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+        <li><a href="#footer">Footer</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="sobre-mi">
+      <h2 class="titulo-sobre-mi">Sobre mí</h2>
+      <p class="descripcion-sobre-mi">
+        Hola — soy <strong>Duván Sánchez</strong>.
+        Me dedico al <strong>desarrollo de software</strong>, creando aplicaciones web y de escritorio con un enfoque en la innovación tecnológica y la resolución de problemas a través del código.
+      </p>
+    </section>
+
+    <section id="proyectos">
+      <h2 class="mis-proyectos">Proyectos</h2>
+
+      <article>
+        <h3 class="titulo-proyecto">Gestor de tareas en línea</h3>
+        <p>
+          Desarrollo de una aplicación web que permite a los usuarios gestionar sus actividades 
+          diarias de manera colaborativa, con integración de autenticación y almacenamiento en la nube.
+        </p>
+      </article>
+    </section>
+
+
+    <section id="estudios" class="seccion-ejemplo">
+      <h2 class="titulo-sobre-mi">Estudios</h2>
+      <ul>
+        <li class="estudio">Software Development</li>
+      </ul>
+    </section>
+
+    <section id="hobbies" class="seccion-ejemplo">
+      <h2 class="titulo-sobre-mi">Mis hobbies</h2>
+
+      <div class="hobby">
+        <h3 class="titulo-hobby">💻 Programación</h3>
+        <p>Me apasiona escribir código y aprender nuevos lenguajes de programación.</p>
+      </div>
+
+      <div class="hobby">
+        <h3 class="titulo2-hobby">📚 Aprendizaje continuo</h3>
+        <p>Disfruto leer documentación, libros y artículos relacionados con la tecnología y el software.</p>
+      </div>
+
+      <div class="hobby">
+        <h3 class="titulo-hobby2">🎮 Videojuegos</h3>
+        <p>Juego videojuegos como inspiración para comprender mecánicas que puedo aplicar en el desarrollo.</p>
+      </div>
+
+      <div class="hobby">
+        <h3 class="titulo-hobby1">🎥 Ver anime</h3>
+        <p>Me gusta ver anime, ya que me inspira en creatividad, diseño visual y narrativas únicas.</p>
+      </div>
+    </section>
+
+    <section id="contacto" class="seccion-ejemplo">
+      <h2 class="titulo-sobre-mi">Contacto</h2>
+      <form action="#" method="post" aria-label="Formulario de contacto" class="form-contacto">
+        <div class="grupo-campos">
+          <div class="campo-form">
+            <label for="nombre">Nombre completo</label>
+            <input type="text" id="nombre" name="nombre" placeholder="nombre completo" required />
+          </div>
+          <div class="campo-form">
+            <label for="email">Correo electrónico</label>
+            <input type="email" id="email" name="email" placeholder="duvanestivensanchezcardona8@gmail.com" required />
+          </div>
+          <div class="campo-form">
+            <label for="telefono">Teléfono</label>
+            <input type="tel" id="telefono" name="telefono" value="3132315314" readonly />
+          </div>
+          <div class="campo-form">
+            <label for="asunto">Asunto</label>
+            <input type="text" id="asunto" name="asunto" placeholder="Motivo del contacto" required />
+          </div>
+        </div>
+        <div class="campo-form">
+          <label for="mensaje">Mensaje</label>
+          <textarea id="mensaje" name="mensaje" rows="6" placeholder="Escribe tu mensaje..." required></textarea>
+        </div>
+        <div class="boton-form">
+          <button type="submit">Enviar</button>
+        </div>
+      </form>
+    </section>
+  </main>
+
+  <footer id="footer">
+    <p>© Duván Sánchez</p>
+    <p>Correo: <a href="mailto:duvanestivensanchezcardona8@gmail.com">duvanestivensanchezcardona8@gmail.com</a></p>
+    <p>Teléfono: 3132315314</p>
+    <p><a href="#header">Volver arriba</a></p>
+  </footer>
+</body>
+</html>
